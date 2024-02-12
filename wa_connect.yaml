@@ -1,0 +1,7 @@
+connect:
+- rtc1: mycobot_Move
+  port1: poseIn
+  type1: in
+  rtc2: mycobot_instruction
+  port2: poseOut
+  type2: out
